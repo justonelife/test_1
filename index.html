@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="style/mobile.css">
+	<title>Chart It</title>
+</head>
+<body>
+	<div class="nav-wrapper global-shadow">
+		<nav class="nav">
+			<header class="nav__header">chart it</header>
+			<div class="btn ham-btn nav__btn">
+				<span class="ham-btn__stick"></span>
+				<span class="ham-btn__stick"></span>
+				<span class="ham-btn__stick"></span>
+			</div>
+		</nav>
+	</div>
+
+
+	<div class="skills">
+
+		<h1 class="label">your skills</h1>
+		<ul class="categories categories--horizontal categories--overflow">
+			<li class="categories__ele global-shadow"><div>1</div></li>
+			<li class="categories__ele global-shadow"><div>2</div></li>
+			<li class="categories__ele global-shadow"><div>2</div></li>
+		</ul>
+	</div>
+
+	<div class="graph">
+		<h1 class="label">your progress</h1>
+		<div class="graph__canvas" id="chart1">
+			<canvas class="global-shadow"></canvas>
+		</div>
+	</div>
+
+	<div class="graph">
+		<h1 class="label">details</h1>
+		<div class="graph__canvas" id="chart2">
+			<canvas class="global-shadow"></canvas>
+		</div>
+	</div>
+</body>
+</html>
