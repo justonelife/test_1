@@ -1,0 +1,127 @@
+.nav-wrapper {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	top: 0;
+}
+
+.nav {
+	height: 60px;
+	width: 100%;
+	background: #fff;
+	position: relative;
+}
+
+.nav__header {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 2rem;
+	font-family: 'Bowlby One SC', cursive;
+}
+
+.nav__btn {
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+	z-index: 1;
+}
+
+.nav__menu {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: #b6e2fa;
+	top: 0;
+	right: 100%;
+	transition: right .5s ease;
+}
+
+.btn {
+	width: 200px;
+	height: 100px;
+	border-radius: 5px;
+}
+
+.ham-btn {
+	width: 40px;
+	height: 25px;
+	position: relative;
+}
+
+.ham-btn__stick {
+	height: 5px;
+	width: 100%;
+	background: #8b8b8b;
+	position: absolute;
+	left: 0;
+	transition: all .3s ease;
+}
+
+.ham-btn__stick:first-child {
+	top: 0;
+}
+
+.ham-btn__stick:nth-child(2) {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.ham-btn__stick:last-child {
+	bottom: 0;
+}
+
+.skills {
+	margin-top: 80px;
+	height: 180px;
+	width: 100%;
+}
+
+.categories {
+	height: 149px;
+	width: 100%;
+	padding: 0 100px;
+}
+
+.categories--horizontal > li {
+	display: inline-block;
+}
+
+.categories--overflow {
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.categories__ele {
+	width: 160px;
+	height: 140px;
+	margin-right: 10px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.label {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-transform: capitalize;
+}
+
+.graph {
+	height: 255px;
+	width: 100%;
+	margin-top: 8px;
+}
+
+.graph__canvas {
+	width: 100%;
+	height: 217px;
+	padding: 0 10px;
+}
+
+.graph__canvas > canvas {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	border-radius: 20px;
+}
